@@ -22,10 +22,23 @@ namespace SmartInsuranceManagementSystem
             if (basicMenuOption == 1)
             {
                 Console.WriteLine("Registration: ");
+                Console.WriteLine("Firstname: ");
+                string firstname = Console.ReadLine();
+
+                Console.WriteLine("Lastname: ");
+                string lastname = Console.ReadLine();
+
                 Console.WriteLine("Email: ");
                 string email = Console.ReadLine();
+
                 Console.WriteLine("Password: ");
                 string password = Console.ReadLine();
+
+                Console.WriteLine("UserType, type client or employee: ");
+                string userType = Console.ReadLine();
+
+                User user = new User(User.GetNextId(), firstname, lastname, email, password, userType);
+                user.Register();
             }
 
 
@@ -37,8 +50,6 @@ namespace SmartInsuranceManagementSystem
 
             string userFilePath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "users.json");
 
-            Console.WriteLine($"User file path is: {userFilePath}");
-
             if (File.Exists(userFilePath))
             {
                 string allUsersJsonContent = File.ReadAllText(userFilePath);
@@ -47,12 +58,9 @@ namespace SmartInsuranceManagementSystem
 
                 foreach(var user in userConvertedData.Users)
                 {
-                    Console.WriteLine(user.Firstname);
+                    Console.WriteLine(user.firstname);
                 }
 
-            } else
-            {
-                Console.WriteLine("Users.json does't exists");
             }
         }
     }

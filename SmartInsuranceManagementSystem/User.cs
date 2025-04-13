@@ -8,22 +8,22 @@ namespace SmartInsuranceManagementSystem
 {
     internal class User
     {
-        public int Id { get; set; }
-        public string Firstname { get; set; }
-        public string Email { get; set; }
-        public string Password { get; set; }
-        public string Lastname { get; set; }
-        public string UserType { get; set; }
+        public int id { get; set; }
+        public string firstname { get; set; }
+        public string email { get; set; }
+        public string password { get; set; }
+        public string lastname { get; set; }
+        public string userType { get; set; }
 
         
         public User(int id, string firstname, string lastname, string email, string password, string userType)
         {
-            this.Id = id;
-            this.Firstname = firstname;
-            this.Lastname = lastname;
-            this.Email = email;
-            this.Password = password;
-            this.UserType = userType;
+            this.id = id;
+            this.firstname = firstname;
+            this.lastname = lastname;
+            this.email = email;
+            this.password = password;
+            this.userType = userType;
         }
 
         public static void RegisterForm()
@@ -33,6 +33,11 @@ namespace SmartInsuranceManagementSystem
             Console.WriteLine("Lastname: ");
             Console.WriteLine("Email: ");
             Console.WriteLine("Password: ");
+        }
+
+        public static int GetNextId()
+        {
+            return 1;
         }
 
         public void Register()

@@ -48,6 +48,7 @@
   <ItemGroup>
     <Compile Include="Client.cs" />
     <Compile Include="Employee.cs" />
+    <Compile Include="JsonCommunication.cs" />
     <Compile Include="Menu.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
