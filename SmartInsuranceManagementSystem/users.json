@@ -1,0 +1,11 @@
+﻿{
+  "users": [
+    {
+      "firstname": "Darko",
+      "lastname": "Pokoracki",
+      "email": "darkopokoracki@gmail.com",
+      "password":  "smartInsurance123",
+      "userType": "Employee",
+    }
+  ]
+}
