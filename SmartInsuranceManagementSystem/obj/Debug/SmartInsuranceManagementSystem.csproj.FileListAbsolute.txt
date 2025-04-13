@@ -1,0 +1,7 @@
+C:\Users\DarkoP\source\repos\SmartInsuranceManagementSystem\SmartInsuranceManagementSystem\bin\Debug\SmartInsuranceManagementSystem.exe.config
+C:\Users\DarkoP\source\repos\SmartInsuranceManagementSystem\SmartInsuranceManagementSystem\bin\Debug\SmartInsuranceManagementSystem.exe
+C:\Users\DarkoP\source\repos\SmartInsuranceManagementSystem\SmartInsuranceManagementSystem\bin\Debug\SmartInsuranceManagementSystem.pdb
+C:\Users\DarkoP\source\repos\SmartInsuranceManagementSystem\SmartInsuranceManagementSystem\obj\Debug\SmartInsuranceManagementSystem.csproj.AssemblyReference.cache
+C:\Users\DarkoP\source\repos\SmartInsuranceManagementSystem\SmartInsuranceManagementSystem\obj\Debug\SmartInsuranceManagementSystem.csproj.CoreCompileInputs.cache
+C:\Users\DarkoP\source\repos\SmartInsuranceManagementSystem\SmartInsuranceManagementSystem\obj\Debug\SmartInsuranceManagementSystem.exe
+C:\Users\DarkoP\source\repos\SmartInsuranceManagementSystem\SmartInsuranceManagementSystem\obj\Debug\SmartInsuranceManagementSystem.pdb

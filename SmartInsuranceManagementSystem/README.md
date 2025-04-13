@@ -1,0 +1,65 @@
+﻿# Purpose of this project is to cover all C# (.NET) basics.
+
+# 1. Lecture
+- Tipovi podataka []
+- Aritmeticki operatori []
+- Operatori dodeljivanja []
+- Operatori poredenja []
+- Logicki operatori []
+- Bitni operatori []
+- Operatori identiteta []
+- Ternarni operator []
+- Operatori null koalescencije []
+- Inkrementiranje i dekrementiranje []
+- Deklaracija i dodela vrednosti varijabli []
+
+# 2. Lecture
+- Naredbe odlucivanja (if, else, switch) []
+- petlje, for, foreach, do while, while []
+- break vs continue in the loops []
+- Nabrajanja []
+- niz string []
+- niz int []
+- matrice 2x2, 3x3 []
+- Interfejsi []
+
+# 3. Lecture
+- Readline []
+- Readkey []
+- Metode []
+- Komponente metode []
+- Parametrizovanje metode []
+- Povratne vrednosti metoda []
+- Metode sa params []
+- Metode sa out parametrima []
+- Metode sa ref parametrima []
+- Pristupni modifikatori []
+- staticke metode []
+- instanciranje metode []
+- Preopterecenje metoda []
+- Rekurzivanje metode []
+- Izuzeci --> greske []
+- Tipovi izuzetaka []
+- Hvatanje izuzetaka []
+- try, catch, finally [] 
+- throw []
+
+# 4. Lecture 
+- Klase,
+- Enkapsulacija []
+- Nasledjivanje []
+- Polimorfizam []
+- Apstrakcija []
+- Konstruktor klase []
+- Interfejsi []
+- Koriscenje ugradjenih interfejsa (IComparable, IEquatable, IDisposable) []
+- Apstraktne klase []
+- Apstratkne klase vs interfejsi []
+- Geteri []
+- Seteri []
+- Virtuelne metode []
+- Apstraktne metode []
+- Apstraktna vs virtuelna metoda []
+- Zavrsene (seald) metode []
+
+...
