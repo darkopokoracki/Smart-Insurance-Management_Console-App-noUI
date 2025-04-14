@@ -52,7 +52,7 @@ namespace SmartInsuranceManagementSystem
 
         public override string ToString()
         {
-            return $"Current user {Firstname} {Lastname} logged as {UserType} with Id {Id}";
+            return $"Current user {firstname} {lastname} logged as {userType} with Id {id}";
         }
     }
 }

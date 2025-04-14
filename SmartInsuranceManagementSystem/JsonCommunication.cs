@@ -11,6 +11,11 @@ namespace SmartInsuranceManagementSystem
 {
     internal class JsonCommunication
     {
-        string userFilePath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "users.json");
+        public static void fetchAll()
+        {
+            throw new NotImplementedException();
+        }
+
+
     }
 }

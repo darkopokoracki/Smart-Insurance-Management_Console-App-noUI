@@ -19,26 +19,39 @@ namespace SmartInsuranceManagementSystem
 
             int basicMenuOption = int.Parse(Console.ReadLine());
 
+            
             if (basicMenuOption == 1)
             {
-                Console.WriteLine("Registration: ");
-                Console.WriteLine("Firstname: ");
+                Console.WriteLine("--Registration");
+                Console.Write("Firstname: ");
                 string firstname = Console.ReadLine();
 
-                Console.WriteLine("Lastname: ");
+                Console.Write("Lastname: ");
                 string lastname = Console.ReadLine();
 
-                Console.WriteLine("Email: ");
+                Console.Write("Email: ");
                 string email = Console.ReadLine();
 
-                Console.WriteLine("Password: ");
+                Console.Write("Password: ");
                 string password = Console.ReadLine();
 
-                Console.WriteLine("UserType, type client or employee: ");
+                Console.Write("UserType, type client or employee: ");
                 string userType = Console.ReadLine();
 
                 User user = new User(User.GetNextId(), firstname, lastname, email, password, userType);
                 user.Register();
+            }
+
+            if (basicMenuOption == 2)
+            {
+                Console.WriteLine("--Login");
+                Console.Write("Email: ");
+                string email = Console.ReadLine();
+
+                Console.Write("Password: ");
+                string password = Console.ReadLine();
+
+                // Fetch User data from JsonCommunication and make object and login that user.
             }
 
 
@@ -47,7 +60,7 @@ namespace SmartInsuranceManagementSystem
             // PolicyWorkFlow, UserWorkFlow, Login Workflow... (Create simple solution for this.)
 
 
-
+            /*
             string userFilePath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "users.json");
 
             if (File.Exists(userFilePath))
@@ -62,6 +75,7 @@ namespace SmartInsuranceManagementSystem
                 }
 
             }
+            */
         }
     }
 }

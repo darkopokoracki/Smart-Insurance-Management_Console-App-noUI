@@ -12,7 +12,7 @@ namespace SmartInsuranceManagementSystem
         {
             Console.WriteLine("1. Register");
             Console.WriteLine("2. Login");
-            Console.WriteLine("Enter possible option: ");
+            Console.Write("Enter possible option: ");
         }
 
         public static void ShowMenuForClient()
