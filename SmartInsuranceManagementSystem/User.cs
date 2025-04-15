@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -14,6 +15,15 @@ namespace SmartInsuranceManagementSystem
         public string password { get; set; }
         public string lastname { get; set; }
         public string userType { get; set; }
+
+        public static List<User> users = new List<User>()
+        {
+            new User(1, "Darko", "Pokoracki", "darkopokoracki@gmail.com", "ptkrf123#", "Emplyee"),
+            new User(2, "Nikola", "Hromcik", "nikolahromcik@gmail.com", "ptkrf123#", "Client"),
+            new User(3, "Desanka", "Maksimovic", "desankamaksimovic@gmail.com", "ptkrf123#", "Employee")
+        };
+
+        private User loggedUser = null;
 
         
         public User(int id, string firstname, string lastname, string email, string password, string userType)
@@ -42,7 +52,7 @@ namespace SmartInsuranceManagementSystem
 
         public void Register()
         {
-            throw new NotImplementedException();
+            this.loggedUser = this.users[0];
         }
 
         public void Login()

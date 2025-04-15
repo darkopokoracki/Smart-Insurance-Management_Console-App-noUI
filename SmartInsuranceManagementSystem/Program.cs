@@ -14,6 +14,41 @@ namespace SmartInsuranceManagementSystem
     {
         static void Main(string[] args)
         {
+
+            /*
+            List<string> korisnici = new List<string>();
+            korisnici.Add("Darko");
+            korisnici.Add("Nikola");
+            korisnici.Add("Vierka");
+
+            foreach(var korisnik in korisnici)
+            {
+                Console.WriteLine(korisnik);
+            }
+            */
+
+            foreach(var u in User.users)
+            {
+                Console.WriteLine(u);
+            }
+
+
+            /*
+            List<Korisnik> korisnici = new List<Korisnik>();
+            Korisnik k1 = new Korisnik("Darko", "Pokoracki", "darkopokoracki@gmail.com", "ptkrf123#", "Zaposleni");
+            Korisnik k2 = new Korisnik("Vierka", "Pokoracki", "vierkapokoracki@gmail.com", "ptkrf123#", "Zaposleni");
+
+            korisnici.Add(k1);
+            korisnici.Add(k2);
+
+            foreach(Korisnik korisnik in korisnici)
+            {
+                Console.WriteLine(korisnik);
+            }
+            */
+
+
+            /*
             Console.WriteLine("Welcome to Smart Insurance Application");
             Menu.ShowBasicMenu();
 
@@ -51,9 +86,14 @@ namespace SmartInsuranceManagementSystem
                 Console.Write("Password: ");
                 string password = Console.ReadLine();
 
-                // Fetch User data from JsonCommunication and make object and login that user.
-            }
+                var users = JsonCommunication.FetchAllUsers("users.json");
+                Console.WriteLine(users);
+               
 
+                // Fetch User data from JsonCommunication and make object and login that user.
+
+            }
+            */
 
             // Implement class Workflow which will be parent class.
             // We will have more workflows to structure code.
