@@ -15,46 +15,23 @@ namespace SmartInsuranceManagementSystem
         static void Main(string[] args)
         {
 
-            /*
-            List<string> korisnici = new List<string>();
-            korisnici.Add("Darko");
-            korisnici.Add("Nikola");
-            korisnici.Add("Vierka");
-
-            foreach(var korisnik in korisnici)
+            List<User> users = new List<User>()
             {
-                Console.WriteLine(korisnik);
-            }
-            */
+                new User(1, "Darko", "Pokoracki", "darkopokoracki@gmail.com", "ptkrf123#", "Employee"),
+                new User(2, "John", "Doe", "johndoe@gmail.com", "ptkrf123#", "Client"),
+                new User(3, "James", "Willson", "jameswillson@gmail.com", "jameswillson", "Employee"),
+                new User(4, "Memphis", "Depay", "memphisdepay@gmail.com", "memphis", "Employee"),
+                new User(5, "Wayne", "Rooney", "waynerooney@gmail.com", "rooney", "Client")
+            };
 
-            foreach(var u in User.users)
-            {
-                Console.WriteLine(u);
-            }
-
-
-            /*
-            List<Korisnik> korisnici = new List<Korisnik>();
-            Korisnik k1 = new Korisnik("Darko", "Pokoracki", "darkopokoracki@gmail.com", "ptkrf123#", "Zaposleni");
-            Korisnik k2 = new Korisnik("Vierka", "Pokoracki", "vierkapokoracki@gmail.com", "ptkrf123#", "Zaposleni");
-
-            korisnici.Add(k1);
-            korisnici.Add(k2);
-
-            foreach(Korisnik korisnik in korisnici)
-            {
-                Console.WriteLine(korisnik);
-            }
-            */
-
-
-            /*
+            User loggedUser = null;
+            
             Console.WriteLine("Welcome to Smart Insurance Application");
+
             Menu.ShowBasicMenu();
 
             int basicMenuOption = int.Parse(Console.ReadLine());
 
-            
             if (basicMenuOption == 1)
             {
                 Console.WriteLine("--Registration");
@@ -73,8 +50,9 @@ namespace SmartInsuranceManagementSystem
                 Console.Write("UserType, type client or employee: ");
                 string userType = Console.ReadLine();
 
-                User user = new User(User.GetNextId(), firstname, lastname, email, password, userType);
-                user.Register();
+                int usersCount = users.Count();
+                User user = new User(usersCount + 1, firstname, lastname, email, password, userType);
+                users.Add(user);
             }
 
             if (basicMenuOption == 2)
@@ -86,36 +64,8 @@ namespace SmartInsuranceManagementSystem
                 Console.Write("Password: ");
                 string password = Console.ReadLine();
 
-                var users = JsonCommunication.FetchAllUsers("users.json");
-                Console.WriteLine(users);
-               
-
-                // Fetch User data from JsonCommunication and make object and login that user.
-
+                loggedUser = users.Where(x => (x.email == email) && (x.password == password)).First();
             }
-            */
-
-            // Implement class Workflow which will be parent class.
-            // We will have more workflows to structure code.
-            // PolicyWorkFlow, UserWorkFlow, Login Workflow... (Create simple solution for this.)
-
-
-            /*
-            string userFilePath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "users.json");
-
-            if (File.Exists(userFilePath))
-            {
-                string allUsersJsonContent = File.ReadAllText(userFilePath);
-
-                var userConvertedData = JsonConvert.DeserializeObject<UsersWrapper>(allUsersJsonContent);
-
-                foreach(var user in userConvertedData.Users)
-                {
-                    Console.WriteLine(user.firstname);
-                }
-
-            }
-            */
         }
     }
 }

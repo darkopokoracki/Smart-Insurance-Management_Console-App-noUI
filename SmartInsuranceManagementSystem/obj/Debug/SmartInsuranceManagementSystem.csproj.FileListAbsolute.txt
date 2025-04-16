@@ -5,7 +5,6 @@ C:\Users\DarkoP\source\repos\SmartInsuranceManagementSystem\SmartInsuranceManage
 C:\Users\DarkoP\source\repos\SmartInsuranceManagementSystem\SmartInsuranceManagementSystem\obj\Debug\SmartInsuranceManagementSystem.csproj.CoreCompileInputs.cache
 C:\Users\DarkoP\source\repos\SmartInsuranceManagementSystem\SmartInsuranceManagementSystem\obj\Debug\SmartInsuranceManagementSystem.exe
 C:\Users\DarkoP\source\repos\SmartInsuranceManagementSystem\SmartInsuranceManagementSystem\obj\Debug\SmartInsuranceManagementSystem.pdb
-C:\Users\DarkoP\source\repos\SmartInsuranceManagementSystem\SmartInsuranceManagementSystem\bin\Debug\users.json
 C:\Users\DarkoP\source\repos\SmartInsuranceManagementSystem\SmartInsuranceManagementSystem\bin\Debug\Newtonsoft.Json.dll
 C:\Users\DarkoP\source\repos\SmartInsuranceManagementSystem\SmartInsuranceManagementSystem\bin\Debug\Newtonsoft.Json.xml
 C:\Users\DarkoP\source\repos\SmartInsuranceManagementSystem\SmartInsuranceManagementSystem\obj\Debug\SmartIns.BF6A1471.Up2Date

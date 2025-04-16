@@ -7,20 +7,12 @@
       "RelativeMoniker": "D:0:0:{1613F92F-E5EF-4736-829E-5E47E9B08464}|SmartInsuranceManagementSystem\\SmartInsuranceManagementSystem.csproj|solutionrelative:smartinsurancemanagementsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1613F92F-E5EF-4736-829E-5E47E9B08464}|SmartInsuranceManagementSystem\\SmartInsuranceManagementSystem.csproj|C:\\Users\\DarkoP\\source\\repos\\SmartInsuranceManagementSystem\\smartinsurancemanagementsystem\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1613F92F-E5EF-4736-829E-5E47E9B08464}|SmartInsuranceManagementSystem\\SmartInsuranceManagementSystem.csproj|solutionrelative:smartinsurancemanagementsystem\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1613F92F-E5EF-4736-829E-5E47E9B08464}|SmartInsuranceManagementSystem\\SmartInsuranceManagementSystem.csproj|c:\\users\\darkop\\source\\repos\\smartinsurancemanagementsystem\\smartinsurancemanagementsystem\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1613F92F-E5EF-4736-829E-5E47E9B08464}|SmartInsuranceManagementSystem\\SmartInsuranceManagementSystem.csproj|C:\\Users\\DarkoP\\source\\repos\\SmartInsuranceManagementSystem\\smartinsurancemanagementsystem\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1613F92F-E5EF-4736-829E-5E47E9B08464}|SmartInsuranceManagementSystem\\SmartInsuranceManagementSystem.csproj|solutionrelative:smartinsurancemanagementsystem\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1613F92F-E5EF-4736-829E-5E47E9B08464}|SmartInsuranceManagementSystem\\SmartInsuranceManagementSystem.csproj|c:\\users\\darkop\\source\\repos\\smartinsurancemanagementsystem\\smartinsurancemanagementsystem\\korisnik.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1613F92F-E5EF-4736-829E-5E47E9B08464}|SmartInsuranceManagementSystem\\SmartInsuranceManagementSystem.csproj|solutionrelative:smartinsurancemanagementsystem\\korisnik.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1613F92F-E5EF-4736-829E-5E47E9B08464}|SmartInsuranceManagementSystem\\SmartInsuranceManagementSystem.csproj|C:\\Users\\DarkoP\\source\\repos\\SmartInsuranceManagementSystem\\smartinsurancemanagementsystem\\jsoncommunication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1613F92F-E5EF-4736-829E-5E47E9B08464}|SmartInsuranceManagementSystem\\SmartInsuranceManagementSystem.csproj|solutionrelative:smartinsurancemanagementsystem\\jsoncommunication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1613F92F-E5EF-4736-829E-5E47E9B08464}|SmartInsuranceManagementSystem\\SmartInsuranceManagementSystem.csproj|c:\\users\\darkop\\source\\repos\\smartinsurancemanagementsystem\\smartinsurancemanagementsystem\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1613F92F-E5EF-4736-829E-5E47E9B08464}|SmartInsuranceManagementSystem\\SmartInsuranceManagementSystem.csproj|solutionrelative:smartinsurancemanagementsystem\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,56 +22,30 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Korisnik.cs",
-              "DocumentMoniker": "C:\\Users\\DarkoP\\source\\repos\\SmartInsuranceManagementSystem\\SmartInsuranceManagementSystem\\Korisnik.cs",
-              "RelativeDocumentMoniker": "SmartInsuranceManagementSystem\\Korisnik.cs",
-              "ToolTip": "C:\\Users\\DarkoP\\source\\repos\\SmartInsuranceManagementSystem\\SmartInsuranceManagementSystem\\Korisnik.cs",
-              "RelativeToolTip": "SmartInsuranceManagementSystem\\Korisnik.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-15T13:13:53.949Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "JsonCommunication.cs",
-              "DocumentMoniker": "C:\\Users\\DarkoP\\source\\repos\\SmartInsuranceManagementSystem\\SmartInsuranceManagementSystem\\JsonCommunication.cs",
-              "RelativeDocumentMoniker": "SmartInsuranceManagementSystem\\JsonCommunication.cs",
-              "ToolTip": "C:\\Users\\DarkoP\\source\\repos\\SmartInsuranceManagementSystem\\SmartInsuranceManagementSystem\\JsonCommunication.cs",
-              "RelativeToolTip": "SmartInsuranceManagementSystem\\JsonCommunication.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-14T21:44:13.995Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Menu.cs",
               "DocumentMoniker": "C:\\Users\\DarkoP\\source\\repos\\SmartInsuranceManagementSystem\\SmartInsuranceManagementSystem\\Menu.cs",
               "RelativeDocumentMoniker": "SmartInsuranceManagementSystem\\Menu.cs",
               "ToolTip": "C:\\Users\\DarkoP\\source\\repos\\SmartInsuranceManagementSystem\\SmartInsuranceManagementSystem\\Menu.cs",
               "RelativeToolTip": "SmartInsuranceManagementSystem\\Menu.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwBcAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-14T21:40:12.85Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "User.cs",
               "DocumentMoniker": "C:\\Users\\DarkoP\\source\\repos\\SmartInsuranceManagementSystem\\SmartInsuranceManagementSystem\\User.cs",
               "RelativeDocumentMoniker": "SmartInsuranceManagementSystem\\User.cs",
               "ToolTip": "C:\\Users\\DarkoP\\source\\repos\\SmartInsuranceManagementSystem\\SmartInsuranceManagementSystem\\User.cs",
               "RelativeToolTip": "SmartInsuranceManagementSystem\\User.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-14T21:38:16.976Z",
               "EditorCaption": ""
@@ -92,7 +58,7 @@
               "RelativeDocumentMoniker": "SmartInsuranceManagementSystem\\Program.cs",
               "ToolTip": "C:\\Users\\DarkoP\\source\\repos\\SmartInsuranceManagementSystem\\SmartInsuranceManagementSystem\\Program.cs",
               "RelativeToolTip": "SmartInsuranceManagementSystem\\Program.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAAB8AAAAjAAAAAAAAAA==",
+              "ViewState": "AgIAACgAAAAAAAAAAAAAADgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-14T21:32:38.27Z",
               "EditorCaption": ""
