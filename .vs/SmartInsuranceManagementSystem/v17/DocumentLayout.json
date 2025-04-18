@@ -1,12 +1,37 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\DarkoP\\source\\repos\\SmartInsuranceManagementSystem\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1613F92F-E5EF-4736-829E-5E47E9B08464}|SmartInsuranceManagementSystem\\SmartInsuranceManagementSystem.csproj|c:\\users\\darkop\\source\\repos\\smartinsurancemanagementsystem\\smartinsurancemanagementsystem\\readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{1613F92F-E5EF-4736-829E-5E47E9B08464}|SmartInsuranceManagementSystem\\SmartInsuranceManagementSystem.csproj|solutionrelative:smartinsurancemanagementsystem\\readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "README.md",
+              "DocumentMoniker": "C:\\Users\\DarkoP\\source\\repos\\SmartInsuranceManagementSystem\\SmartInsuranceManagementSystem\\README.md",
+              "RelativeDocumentMoniker": "SmartInsuranceManagementSystem\\README.md",
+              "ToolTip": "C:\\Users\\DarkoP\\source\\repos\\SmartInsuranceManagementSystem\\SmartInsuranceManagementSystem\\README.md",
+              "RelativeToolTip": "SmartInsuranceManagementSystem\\README.md",
+              "ViewState": "AgIAADMAAAAAAAAAAAAAAFIAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2025-04-18T21:12:37.176Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }

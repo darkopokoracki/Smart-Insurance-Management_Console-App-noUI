@@ -62,4 +62,22 @@
 - Apstraktna vs virtuelna metoda []
 - Zavrsene (seald) metode []
 
-...
+# 5. Lecture
+- Kolekcije []
+- Dinamicke Kolekcije []
+- Genericke Liste []
+- Dodavanje stavki u listu u toku inicijalizacije []
+- Dodavanje stavki u listu pomocu niza []
+- Birsanje iz liste []
+- Pristup elementima liste []
+- Pretraga i provere []
+- Sortiranje liste []
+- Dictionary []
+- HashSet []
+- Queue []
+- Stack []
+- SortedList []
+- LinQ []
+- Kljucne metode Linqua []
+- LinQ, prikazivanje rezultata []
+- Kombinovanje linq upita []
