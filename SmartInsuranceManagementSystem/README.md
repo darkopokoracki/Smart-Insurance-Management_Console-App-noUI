@@ -1,4 +1,4 @@
-﻿# Purpose of this project is to cover all C# (.NET) basics.
+# Purpose of this project is to cover all C# (.NET) basics.
 
 # 1. Lecture
 - Tipovi podataka []
@@ -81,3 +81,5 @@
 - Kljucne metode Linqua []
 - LinQ, prikazivanje rezultata []
 - Kombinovanje linq upita []
+
+# 6. Lecture
